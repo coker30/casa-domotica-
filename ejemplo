@@ -80,11 +80,11 @@ void loop()
  
             //Página web en formato HTML
             client.println("<html>");                 
-            client.println("<head><title>Naylamp Mechatronics</title>");
+            client.println("<head><title>Control casa domotica</title>");
             client.println("</head>");
             client.println("<body>");
             client.println("<div style='text-align:center;'>");
-            client.println("<h1>NAYLAMP MECHATRONICS</h1>");
+            client.println("<h1>David Anguiano</h1>");
             client.println("<h2>Entradas Analogicas</h2>");
             client.print("AN0="); client.println(analogRead(0));
             client.print("<br />AN1=");client.println(analogRead(1)); 
